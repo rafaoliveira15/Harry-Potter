@@ -3,10 +3,10 @@
 body {
   background: #050308;
   font-family: "MedievalSharp", serif;
-  overflow: hidden;
-  height: 100vh;
   cursor: none;
 }
+
+*::-webkit-scrollbar{display: none;}
 
 /* ══ CURSOR ══ */
 #cursor {
@@ -161,9 +161,11 @@ body {
    AZKABAN
 ══════════════════════════ */
 #pg-azkaban {
-  background: radial-gradient(ellipse at 50% 30%, #0a0510 0%, #000 100%);
-  padding: 80px 20px;
-  overflow-y: auto;
+  overflow-y: auto !important; 
+  justify-content: flex-start !important; 
+  padding-top: 80px; 
+  padding-bottom: 40px;
+  background: radial-gradient(circle, #2E1A47 0%, #0B1A2A 60%, #121212 100%);
 }
 .azkaban-content {
   max-width: 700px;
@@ -221,11 +223,37 @@ body {
 }
 .btn-entrar:hover { background: rgba(232, 180, 60, 0.1); border-color: #e8c860; }
 
+.video-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+  position: relative;
+  border: 2px solid rgba(232, 180, 60, 0.3); /* Borda dourada suave */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7), 0 0 15px rgba(128, 96, 160, 0.2);
+}
+
+.video-moldura {
+  width: 100%;
+  display: block;
+  filter: sepia(0.2) contrast(1.1); /* Efeito levemente envelhecido */
+}
+
+/* Efeito de vinheta sobre o vídeo para suavizar as bordas */
+.video-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+}
+
 /* ══════════════════════════
    2. PERSONAGENS
 ══════════════════════════ */
 #pg-personagens {
-  background: radial-gradient(ellipse at 50% 0%, #1a0a30 0%, #050210 100%);
+  background: radial-gradient(circle, #2E1A47 0%, #0B1A2A 60%, #121212 100%);
   overflow-y: auto;
   justify-content: flex-start;
   padding: 80px 20px 40px;
@@ -516,7 +544,7 @@ body {
 /* ══════════════════════════
    5. VIRADOR
 ══════════════════════════ */
-#pg-virador    { background: radial-gradient(ellipse at 50% 50%, #1a1008 0%, #050308 100%); gap: 2rem; }
+#pg-virador    { background: radial-gradient(circle, #2E1A47 0%, #0B1A2A 60%, #121212 100%);; gap: 2rem; }
 #pg-virador h2 { font-family: "MedievalSharp", serif; color: #e8c860; font-size: clamp(1.2rem, 3vw, 2rem); }
 .virador-container { display: flex; gap: 3rem; align-items: center; flex-wrap: wrap; justify-content: center; }
 .relogio { position: relative; width: 180px; height: 180px; }
@@ -572,7 +600,7 @@ body {
    6. TIMELINE
 ══════════════════════════ */
 #pg-timeline {
-  background: linear-gradient(180deg, #050308 0%, #0a0510 100%);
+  background: radial-gradient(circle, #2E1A47 0%, #0B1A2A 60%, #121212 100%);
   overflow-y: auto;
   padding: 80px 20px 40px;
   justify-content: flex-start;

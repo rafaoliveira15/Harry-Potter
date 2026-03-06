@@ -150,12 +150,20 @@ function iniciarMapa() {
 
 // ══ 4. DEMENTADORES ══
 function iniciarDementadores() {
-  if (this.done) return;
-  this.done = true;
-
   const pg = $("pg-dementadores");
+  
+  // Verificação de segurança: Se já existem dementadores, não cria de novo
+  if (pg.querySelector(".dementador")) return;
 
-  [{x:15,y:20},{x:70,y:10},{x:40,y:50},{x:80,y:60},{x:5,y:70}].forEach((pos, i) => {
+  const posicoes = [
+    {x:15,y:20, dx1:50, dy1:30, dx2:-30, dy2:50, dx3:20, dy3:-20},
+    {x:70,y:10, dx1:-40, dy1:40, dx2:20, dy2:60, dx3:-10, dy3:10},
+    {x:40,y:50, dx1:30, dy1:-30, dx2:-50, dy2:20, dx3:40, dy3:50},
+    {x:80,y:60, dx1:-20, dy1:-40, dx2:30, dy2:-20, dx3:-30, dy3:20},
+    {x:5,y:70, dx1:40, dy1:-20, dx2:60, dy2:30, dx3:10, dy3:-40}
+  ];
+
+  posicoes.forEach((pos, i) => {
     const d = document.createElement("div");
     d.className = "dementador";
     d.innerHTML = `
@@ -171,21 +179,34 @@ function iniciarDementadores() {
           <div class="dem-braco dir"></div>
         </div>
       </div>`;
-    d.style.cssText = `left:${pos.x}%;top:${pos.y}%;--dur:${4 + i * 0.8}s;animation-delay:${i * 0.4}s;opacity:0.8`;
+    // Adicionei as variáveis de movimento (--dx) que o seu CSS pede para a animação "voar"
+    d.style.cssText = `
+      left:${pos.x}%; 
+      top:${pos.y}%; 
+      --dur:${4 + i * 0.8}s; 
+      --dx1:${pos.dx1}px; --dy1:${pos.dy1}px;
+      --dx2:${pos.dx2}px; --dy2:${pos.dy2}px;
+      --dx3:${pos.dx3}px; --dy3:${pos.dy3}px;
+      animation-delay:${i * 0.4}s; 
+      opacity:0.8`;
     pg.appendChild(d);
   });
-
-  for (let j = 0; j < 20; j++) {
-    const g = document.createElement("div");
-    g.className  = "gelo-particula";
-    g.textContent = ["❄","❅","❆","*"][Math.floor(Math.random() * 4)];
-    g.style.cssText = `left:${Math.random() * 100}%;top:${Math.random() * 100}%;--gd:${3 + Math.random() * 4}s;animation-delay:${Math.random() * 4}s`;
-    pg.appendChild(g);
+  // Partículas de Gelo (Só cria se não houver)
+  if (!pg.querySelector(".gelo-particula")) {
+    for (let j = 0; j < 20; j++) {
+      const g = document.createElement("div");
+      g.className = "gelo-particula";
+      g.textContent = ["❄","❅","❆","*"][Math.floor(Math.random() * 4)];
+      g.style.cssText = `left:${Math.random() * 100}%; top:${Math.random() * 100}%; --gd:${3 + Math.random() * 4}s; animation-delay:${Math.random() * 4}s`;
+      pg.appendChild(g);
+    }
   }
-
-  setTimeout(() => $("expecto-btn").classList.add("visivel"), 3000);
+  // Garante que o botão apareça
+  const btn = $("expecto-btn");
+  if (btn) {
+      setTimeout(() => btn.classList.add("visivel"), 1000);
+  }
 }
-
 const expecto = () => {
   $("luz-patrono").classList.add("ativo");
   $all(".dementador").forEach(d => (d.style.opacity = "0"));
