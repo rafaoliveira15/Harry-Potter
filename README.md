@@ -164,10 +164,9 @@ Este projeto tem como finalidade:
 
 | Tela Inicial | Personagens | Mapa do Maroto |
 |---------------|-------------|---------------|
-| <img width="300" src="<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/6980ef2c-bcbf-418b-a2c8-1cc93688ea03" />
-"> | <img width="300" src="<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/54634ab8-8545-4c55-94cf-dacfa4be53c2" />
-"> | <img width="300" src="<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/2a59861f-6401-44af-8113-f14540766464" />
-"> |
+|src="<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/6980ef2c-bcbf-418b-a2c8-1cc93688ea03" />
+|src="<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/54634ab8-8545-4c55-94cf-dacfa4be53c2" />
+| <img width="300" src="<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/2a59861f-6401-44af-8113-f14540766464" /> |
 
 | Dementadores | Virador do Tempo | Linha do Tempo |
 |---------------|-----------------|---------------|
