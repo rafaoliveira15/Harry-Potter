@@ -141,6 +141,43 @@ O projeto utiliza uma estética inspirada no universo mágico:
 
 ---
 
+Projeto interativo inspirado no universo de **Harry Potter**, desenvolvido para demonstrar conceitos de **HTML, CSS e JavaScript**, criando uma experiência visual imersiva baseada na história **Harry Potter e o Prisioneiro de Azkaban**.
+
+A aplicação apresenta diferentes seções do mundo mágico, incluindo **personagens, mapa do maroto, dementadores e linha do tempo da saga**, com animações e interações dinâmicas.
+
+---
+
+# 🎯 Objetivo
+
+Este projeto tem como finalidade:
+
+- Criar uma experiência interativa baseada no universo Harry Potter
+- Praticar **manipulação do DOM**
+- Aplicar **animações com CSS**
+- Desenvolver **interfaces interativas com JavaScript**
+- Trabalhar **organização de páginas em um único sistema**
+- Explorar **efeitos visuais e transições**
+
+---
+
+# 📸 Capturas de Tela
+
+| Tela Inicial | Personagens | Mapa do Maroto |
+|---------------|-------------|---------------|
+| <img width="300" src="<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/6980ef2c-bcbf-418b-a2c8-1cc93688ea03" />
+"> | <img width="300" src="<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/54634ab8-8545-4c55-94cf-dacfa4be53c2" />
+"> | <img width="300" src="<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/2a59861f-6401-44af-8113-f14540766464" />
+"> |
+
+| Dementadores | Virador do Tempo | Linha do Tempo |
+|---------------|-----------------|---------------|
+| <img width="300" src="<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/a127684e-a8c3-4dc9-9b7c-6da15eb57393" />
+"> | <img width="300" src="<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f91132d9-cfa2-4808-a96b-4b4d66b1bad6" />
+"> | <img width="300" src="<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/a1433eeb-5572-4868-a801-61d5a892de4a" />
+"> |
+
+---
+
 # 🚀 Como Executar
 
 1️⃣ Clone o repositório:
