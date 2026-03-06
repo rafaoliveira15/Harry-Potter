@@ -1,201 +1,221 @@
-# ⚡Harry Potter e o Prisioneiro de Azkaban - Site Interativo
+# 🧙‍♂️ Hogwarts Experience — Projeto Interativo de Harry Potter
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-
-Projeto interativo inspirado no universo de **Harry Potter**, desenvolvido para demonstrar conceitos de **HTML, CSS e JavaScript**, criando uma experiência visual imersiva baseada na história **Harry Potter e o Prisioneiro de Azkaban**.
-
-A aplicação apresenta diferentes seções do mundo mágico, incluindo **personagens, mapa do maroto, dementadores e linha do tempo da saga**, com animações e interações dinâmicas.
+![Status](https://img.shields.io/badge/status-finalizado-green)
+![HTML](https://img.shields.io/badge/HTML5-estrutura-orange)
+![CSS](https://img.shields.io/badge/CSS3-estilização-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-interatividade-yellow)
+![License](https://img.shields.io/badge/license-MIT-purple)
 
 ---
 
-# 🎯 Objetivo
+## ✨ Sobre o Projeto
 
-Este projeto tem como finalidade:
+O **Hogwarts Experience** é um projeto web interativo inspirado no universo de **Harry Potter**, com foco especial em **Harry Potter e o Prisioneiro de Azkaban**.
 
-- Criar uma experiência interativa baseada no universo Harry Potter
-- Praticar **manipulação do DOM**
-- Aplicar **animações com CSS**
-- Desenvolver **interfaces interativas com JavaScript**
-- Trabalhar **organização de páginas em um único sistema**
-- Explorar **efeitos visuais e transições**
+A aplicação apresenta uma experiência imersiva onde o usuário pode explorar diferentes seções do mundo mágico, incluindo:
 
----
+- Entrada interativa em Hogwarts
+- Personagens da saga
+- O Mapa do Maroto
+- A ameaça dos Dementadores
+- O Virador do Tempo
+- A linha do tempo da história
 
-# 🧙‍♂️ Funcionalidades do Projeto
-
-## ✦ Entrada Interativa
-- Tela inicial com estrelas animadas
-- Pomo de Ouro flutuante
-- Clique para abrir a entrada de Hogwarts
+O objetivo do projeto é **combinar narrativa, design e programação** para criar uma experiência visual e interativa utilizando **HTML, CSS e JavaScript puro**.
 
 ---
 
-## 🏰 Azkaban
-Apresenta informações sobre:
+## 🎮 Experiência do Usuário
 
-- O livro **Harry Potter e o Prisioneiro de Azkaban**
-- Curiosidades da história
-- Destaques importantes da trama
+Ao acessar o site, o usuário encontra uma **tela de entrada com animação**, onde precisa clicar no **Pomo de Ouro** para entrar no mundo mágico de Hogwarts.
 
----
-
-## 🧑‍🎓 Personagens
-Exibe cards interativos com personagens da saga.
-
-Cada personagem possui:
-
-- Nome
-- Casa de Hogwarts
-- Descrição
-- Modal com informações detalhadas
+A partir disso, ele pode navegar por várias seções através de um menu interativo.
 
 ---
 
-## 🗺️ Mapa do Maroto
-Mapa interativo que mostra:
+## 🧭 Seções do Projeto
 
-- Locais de Hogwarts
-- Tooltips informativos
-- Pegadas animadas representando movimento
-
----
-
-## 👻 Dementadores
-Simulação visual com:
-
-- Dementadores voando pela tela
-- Efeitos de neblina
-- Botão **Expecto Patronum**
-- Efeito de luz representando o Patrono
+### 🏰 Entrada de Hogwarts
+- Tela inicial com fundo estrelado
+- Pomo de Ouro interativo
+- Animação de abertura da porta
+- Introdução ao universo mágico
 
 ---
 
-## ⏳ Virador do Tempo
-Simulação animada do objeto mágico com:
+### 🔐 Azkaban
+Apresenta o contexto de **Harry Potter e o Prisioneiro de Azkaban**, incluindo:
 
-- Relógio girando
-- Anéis rotacionando
-- Livro mágico com páginas virando
-
----
-
-## 📜 Linha do Tempo
-Timeline da história de Harry Potter com:
-
-- Eventos importantes
-- Destaques da saga
-- Interface organizada em ordem cronológica
+- Informações sobre a história
+- Cards informativos
+- Vídeo ambientado no tema
+- Botão para continuar a exploração
 
 ---
 
-# 🧠 Conceitos Trabalhados
+### 👥 Personagens
+Seção dedicada aos personagens do universo de Harry Potter.
 
-Este projeto aplica diversos conceitos importantes de desenvolvimento web:
+Recursos:
 
-- Manipulação do **DOM**
-- Eventos com **onclick**
-- **Animações CSS**
-- **Grid Layout**
-- **Modais interativos**
-- **Efeitos visuais**
-- **Interação dinâmica**
-- Organização de múltiplas páginas em um único sistema
+- Grid de personagens
+- Modal interativo
+- Informações detalhadas
+- Efeitos visuais ao abrir personagem
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+### 🗺️ Mapa do Maroto
+Inspirado no famoso **Marauder’s Map**, apresenta:
 
-- **HTML5** — Estrutura do projeto
-- **CSS3** — Estilização, layout e animações
-- **JavaScript (Vanilla JS)** — Interatividade e lógica
-- **Google Fonts** — Tipografia temática medieval
+- Locais importantes de Hogwarts
+- Tooltips interativos
+- Frases temáticas
 
 ---
 
-# 📂 Estrutura do Projeto
+### 👻 Dementadores
+Uma seção interativa inspirada nas criaturas sombrias de Azkaban.
+
+O usuário pode utilizar o feitiço:
 
 ```
-📁 hogwarts-interativo
+Expecto Patronum
+```
+
+Para expulsar os dementadores com um efeito visual.
+
+---
+
+### ⏳ Virador do Tempo
+Apresenta um modelo 3D interativo do **Time Turner**.
+
+Tecnologia utilizada:
+
+- **Sketchfab embed**
+- Visualização 3D
+- Ambientação temática
+
+---
+
+### 📜 Linha do Tempo
+Mostra eventos importantes da saga Harry Potter.
+
+Apresentação visual com elementos organizados em **timeline dinâmica**.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando tecnologias fundamentais do desenvolvimento web:
+
+- **HTML5** → Estrutura da aplicação
+- **CSS3** → Estilização e efeitos visuais
+- **JavaScript (Vanilla JS)** → Interatividade e manipulação do DOM
+- **Canvas API** → Efeito de estrelas
+- **Sketchfab Embed** → Modelo 3D do Virador do Tempo
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+hogwarts-experience
 │
-├── index.html   → Estrutura principal da aplicação
-├── style.css    → Estilização e animações visuais
-├── script.js    → Lógica e interações do sistema
+├── index.html
+├── style.css
+├── script.js
 │
-└── img/
-    └── pomo.png → Imagem utilizada na animação do Pomo de Ouro
+├── img
+│   ├── pomo.png
+│   └── videoplayback.mp4
+│
+└── README.md
 ```
 
 ---
 
-# 🎨 Características Visuais
+## ⚙️ Funcionalidades Técnicas
 
-O projeto utiliza uma estética inspirada no universo mágico:
+O projeto utiliza diversos conceitos importantes de programação:
 
-- Tema escuro
-- Cores douradas e roxas
-- Animações mágicas
-- Cursor personalizado
-- Efeitos de brilho e partículas
-
----
-
-Projeto interativo inspirado no universo de **Harry Potter**, desenvolvido para demonstrar conceitos de **HTML, CSS e JavaScript**, criando uma experiência visual imersiva baseada na história **Harry Potter e o Prisioneiro de Azkaban**.
-
-A aplicação apresenta diferentes seções do mundo mágico, incluindo **personagens, mapa do maroto, dementadores e linha do tempo da saga**, com animações e interações dinâmicas.
+- Manipulação do DOM
+- Eventos JavaScript
+- Animações com CSS
+- Canvas para efeitos visuais
+- Modais dinâmicos
+- Navegação entre páginas internas
+- Integração com conteúdo 3D
 
 ---
 
-# 🎯 Objetivo
+## 🎨 Design
 
-Este projeto tem como finalidade:
+O visual foi inspirado no estilo mágico da franquia **Harry Potter**, incluindo:
 
-- Criar uma experiência interativa baseada no universo Harry Potter
-- Praticar **manipulação do DOM**
-- Aplicar **animações com CSS**
-- Desenvolver **interfaces interativas com JavaScript**
-- Trabalhar **organização de páginas em um único sistema**
-- Explorar **efeitos visuais e transições**
-  
+- Tipografia temática
+- Paleta de cores sombria
+- Elementos mágicos
+- Animações sutis
+- Interface imersiva
+
 ---
 
-# 🚀 Como Executar
+## 🚀 Como Executar o Projeto
 
-1️⃣ Clone o repositório:
+### 1️⃣ Baixar o projeto
+
+Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/hogwarts-interativo.git
+git clone https://github.com/seuusuario/hogwarts-experience.git
 ```
 
-2️⃣ Abra a pasta do projeto.
+---
 
-3️⃣ Execute o arquivo:
+### 2️⃣ Abrir o projeto
+
+Entre na pasta:
+
+```bash
+cd hogwarts-experience
+```
+
+Abra o arquivo:
 
 ```
 index.html
 ```
 
-4️⃣ O projeto abrirá diretamente no navegador.
-
-⚠️ Não é necessário instalar dependências ou servidor.
+em qualquer navegador.
 
 ---
 
-# 📚 Aprendizados com o Projeto
+### 3️⃣ Rodar com Live Server (Recomendado)
 
-Durante o desenvolvimento é possível praticar:
+No **VS Code**:
 
-- Criação de interfaces imersivas
-- Lógica de navegação entre telas
-- Desenvolvimento de componentes visuais
-- Organização de código front-end
-- Aplicação de efeitos avançados com CSS
+1. Instale a extensão **Live Server**
+2. Clique com botão direito em `index.html`
+3. Clique em **Open with Live Server**
 
 ---
 
-# 👩‍💻 Autora
+## 🎯 Objetivos Educacionais
+
+Este projeto foi desenvolvido para praticar:
+
+- Desenvolvimento front-end
+- Organização de interfaces
+- Lógica com JavaScript
+- Experiência do usuário
+- Criação de projetos temáticos
+
+---
+
+## 👩‍💻 Autora
 
 **Rafaela Oliveira**  💙
 
-Estudante de **Desenvolvimento de Sistemas**
+ Estudante de Desenvolvimento de Sistemas  
+
